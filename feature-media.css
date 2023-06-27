@@ -1,0 +1,393 @@
+@media screen and (min-width: 768px) {
+    .btn, .menu, body.dimmed::after, .hero-mobile, .hero-desktop {
+        display: none;
+    }
+    .menu-clasic, .hero-tablet {
+        display: flex;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #FFFFFF;
+        padding: 0 40px 0 5px;
+    }
+    .menu-clasic ul {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 37px;
+
+        display: flex;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 2px;
+        color: #000000;
+    }
+    .invite-li-media {
+        width: 158px;
+        height: 40px;
+        background: #000000;
+        color: white;
+        text-align: center;
+        padding-top: 12px;
+        margin-left: 40px;
+    }
+    .line-one {
+        position: absolute;
+        z-index: 4;
+        width: 144px;
+        top: 240px;
+        left: -69px;
+        transform: rotate(90deg);
+    }
+    .text-h1 {
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 4.16667px;
+        margin-bottom: 21px;
+    }
+    .text-p {
+        max-width: 50%;
+    }
+    .text {
+        width: 100%;
+        height: 490px;
+        padding: 173px 54px;
+        z-index: 3;
+    }
+    .images-cont {
+        width: 400px;
+    }
+    .hero-tablet {
+        object-fit: cover;
+        width: 100%;
+        height: 485px;
+    }
+    .section-one {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .section-two {
+        padding: 112px 38px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 13px;
+    }
+    .txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 56px;
+    }
+    .txt-p {
+        width: 399px;
+    }
+    .unlimit {
+        margin-bottom: 40px;
+    }
+    .section-three {
+        position: relative;
+        background-image: url(./Assets/shared/tablet/bg-beta.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .line-two {
+        position: absolute;
+        z-index: 2;
+        bottom: 137px;
+        left: -137px;
+        width: 280px;
+        transform: rotate(90deg);
+    }
+    .beta {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 68px 40px 68px 33px;
+        gap: 123px;
+    }
+    .beta-two-elements {
+        align-self: center;
+    }
+    .beta-h1 {
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 4.16667px;
+        width: 395px;
+        height: 144px;
+        margin-bottom: 0px;
+    }
+    footer {
+        height: 284px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        gap: 121px;
+        padding: 64px 40px 64px 39px;
+    }
+    .footer-logo {
+        width: 200px;
+        margin: 0;
+    }
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .social-icons {
+        gap: 20px;
+    }
+    .social-icons svg path {
+        fill: #FFFFFF;
+    }
+    .pages {
+        flex-direction: row;
+        gap: 26px;
+        margin: 32px 0 72px 0;
+    }
+    .beta-two-elements-footer {
+        justify-content: right;
+        display: flex;
+        margin-bottom: 34px;
+        gap: 22px;
+    }
+    .footer-down {
+        display: flex;
+        flex-direction: column;
+        gap: 105px;
+    }
+    .copyright {
+        text-align: right;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .section-two {
+        padding: 112px 38px;
+        justify-content: space-around;
+        gap: 13px;
+    }
+    .section-one {
+        overflow: hidden;
+    }
+    .text {
+        padding: 173px 100px;
+        min-width: 500px;
+    }
+    .txt-p {
+        width: 350px;
+    }
+    .hero-tablet {
+        display: none;
+    }
+    .hero-desktop {
+        display: flex;
+        height: 485px;
+    }
+    .images-cont {
+        min-width: 550px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .btn, .hero-mobile, .hero-tablet {
+        display: none;
+    }
+    .menu-clasic, .hero-desktop {
+        display: flex;
+    }
+    header {
+        padding: 0 165px;
+    }
+    .menu-clasic ul {
+        font-size: 16px;
+    }
+    .menu-clasic-hover:hover  {
+        mix-blend-mode: normal;
+        opacity: 0.3;
+    }
+    .invite-li-media:hover {
+        color: #000000;
+        background: #DFDFDF;
+    }
+    .invite-li-media {
+        margin-left: 264px;
+    }
+    .line-one {
+        top: 245px;
+        left: -69px;
+    }
+    .text-p {
+        max-width: 90%;
+    }
+    .text {
+        width: 50%;
+        padding: 173px 112px;
+    }
+    .hero-desktop {
+        width: 100%;
+        height: 485px;
+        object-fit: cover;
+    }
+    .images-cont {
+        width: 70%;
+    }
+    .section-two {
+        padding: 160px 100px;
+        gap: 50px;
+        row-gap: 104px;
+    }
+    .txt {
+        margin-bottom: 0px;
+    }
+    .section-three {
+        position: relative;
+        background-image: url(./Assets/shared/desktop/bg-beta.jpg);
+    }
+    .beta {
+        padding: 68px 100px;
+        gap: 544px;
+    }
+    .beta-p {
+        cursor: pointer;
+    }
+    .beta-two-elements {
+        align-self: center;
+    }
+    .beta-two-elements svg {
+        cursor: pointer;
+    }
+    .beta-h1 {
+        width: 400px;
+        margin-bottom: 0px;
+    }
+    footer {
+        height: 250px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        gap: 350px;
+        padding: 64px 0;
+    }
+    .footer-logo {
+        width: 200px;
+        margin: 0;
+    }
+    .footer-up {
+        display: flex;
+        flex-direction: column;
+    }
+    .reverse {
+        display: flex;
+        flex-direction: row;
+        gap: 125px;
+        margin-top: -20px;
+    }
+    .social-icons {
+        gap: 20px;
+        align-items: end;
+    }
+    .fb svg path:hover {
+        fill: url(#a);
+        fill: linear-gradient(225deg, #63AFDB 0%, #6028F1 100%);
+    }
+    .youtube svg path:hover {
+        fill: url(#b);
+        fill: linear-gradient(45deg, #D3205A 0%, #FF5A5A 100%);
+    }
+    .tw svg path:hover {
+        fill: url(#c);
+        fill: linear-gradient(225deg, #65FFEB 0%, #27718A 100%);
+    }
+    .pin svg path:hover {
+        fill: url(#d);
+        fill: linear-gradient(225deg, #F6C683 0%, #DE3838 100%)
+    }
+    .ins svg path:hover {
+        fill: url(#e);
+        fill: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+    }
+    .pages {
+        flex-direction: column;
+        gap: 19px;
+        margin: 0;
+        cursor: pointer;
+    }
+    .pages p:hover {
+        mix-blend-mode: normal;
+        opacity: 0.3;
+    }
+    .beta-two-elements-footer {
+        justify-content: right;
+        display: flex;
+        margin-bottom: 10px;
+        gap: 22px;
+        cursor: pointer;
+    }
+    .footer-down {
+        display: flex;
+        flex-direction: column;
+        gap: 86px;
+    }
+}
+
+@media screen and (min-width: 2100px) {
+    .section-two {
+        padding: 112px 0px;
+        gap: 43px;
+    }
+    .txt-p {
+        width: 550px;
+    }
+}
+
+@media screen and (min-width: 2800px) {
+    body {
+        max-width: 2800px;
+        margin: auto;
+    }
+    header {
+        height: 150px;
+    }
+    .text {
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+    .text-p {
+        font-size: 25px;
+        text-align: center;
+    }
+    .hero-desktop {
+        height: 595px;
+    }
+    .section-two {
+        height: 800px;
+    }
+    .section-three {
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .line-two {
+        width: 400px;
+        bottom: 200px;
+        left: -197px;
+    }
+    footer {
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 4200px) {
+    
+}
